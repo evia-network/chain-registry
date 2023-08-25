@@ -336,6 +336,10 @@
         "provider": "chainapsis"
       },
       {
+        "address": "https://osmosis-rpc.onivalidator.com",
+        "provider": "Oni Validator ⛩️"
+      },
+      {
         "address": "https://osmosis-rpc.quickapi.com:443",
         "provider": "Chainlayer"
       },
@@ -410,6 +414,10 @@
       {
         "address": "https://osmosis-rpc.publicnode.com",
         "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+	  {
+        "address": "https://community.nuxian-node.ch:6797/osmosis/trpc",
+        "provider": "PRO Delegators"
       }
     ],
     "rest": [
@@ -492,6 +500,10 @@
       {
         "address": "https://osmosis-rest.publicnode.com",
         "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+	  {
+        "address": "https://community.nuxian-node.ch:6797/osmosis/crpc",
+        "provider": "PRO Delegators"
       }
     ],
     "grpc": [
@@ -547,16 +559,16 @@
   },
   "explorers": [
     {
-      "kind": "EZ Staking Tools",
-      "url": "https://ezstaking.tools/osmosis",
-      "tx_page": "https://ezstaking.tools/osmosis/txs/${txHash}",
-      "account_page": "https://ezstaking.tools/osmosis/account/${accountAddress}"
+      "kind": "EZ Staking",
+      "url": "https://app.ezstaking.io/osmosis",
+      "tx_page": "https://app.ezstaking.io/osmosis/txs/${txHash}",
+      "account_page": "https://app.ezstaking.io/osmosis/account/${accountAddress}"
     },
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/osmosis",
-      "tx_page": "https://www.mintscan.io/osmosis/txs/${txHash}",
-      "account_page": "https://www.mintscan.io/osmosis/account/${accountAddress}"
+      "tx_page": "https://www.mintscan.io/osmosis/transactions/${txHash}",
+      "account_page": "https://www.mintscan.io/osmosis/accounts/${accountAddress}"
     },
     {
       "kind": "ping.pub",
