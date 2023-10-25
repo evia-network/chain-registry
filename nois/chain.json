@@ -38,7 +38,8 @@
     "git_repo": "https://github.com/noislabs/noisd",
     "recommended_version": "v1.0.4",
     "compatible_versions": [
-      "v1.0.0", "v1.0.4"
+      "v1.0.0",
+      "v1.0.4"
     ],
     "cosmos_sdk_version": "v0.45.15",
     "consensus": {
@@ -58,7 +59,8 @@
         "height": 0,
         "recommended_version": "v1.0.4",
         "compatible_versions": [
-          "v1.0.0", "v1.0.4"
+          "v1.0.0",
+          "v1.0.4"
         ],
         "cosmos_sdk_version": "v0.45.15",
         "consensus": {
@@ -76,6 +78,10 @@
       "theme": {
         "primary_color_hex": "#0C0914"
       }
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
     }
   ],
   "logo_URIs": {
@@ -126,6 +132,10 @@
       {
         "address": "https://nois-rpc.nysa.network",
         "provider": "nysa.network"
+      },
+      {
+        "address": "https://nois.rpc.bccnodes.com",
+        "provider": "BccNodes"
       },
       {
         "address": "https://nois-rpc.lavenderfive.com:443",
@@ -191,12 +201,15 @@
         "address": "https://rpc.nois.silentvalidator.com",
         "provider": "silent"
       }
-
     ],
     "grpc": [
       {
         "address": "https://nois-grpc.nysa.network",
         "provider": "nysa.network"
+      },
+      {
+        "address": "nois.grpc.bccnodes.com:443",
+        "provider": "BccNodes"
       },
       {
         "address": "https://nois-grpc.lavenderfive.com:443",
@@ -259,6 +272,10 @@
       {
         "address": "https://api.noismain.mcbnode.online",
         "provider": "mcbnode"
+      },
+      {
+        "address": "https://nois.api.bccnodes.com",
+        "provider": "BccNodes"
       },
       {
         "address": "https://m-nois.api.utsa.tech",
@@ -338,6 +355,12 @@
       "url": "https://explorer.stavr.tech/nois-mainnet",
       "tx_page": "https://explorer.stavr.tech/nois-mainnet/txs/${txHash}",
       "account_page": "https://explorer.stavr.tech/nois-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "BccNodes",
+      "url": "https://explorer.stavr.tech/nois-mainnet",
+      "tx_page": "https://explorer.bccnodes.com/nois-M/txs/${txHash}",
+      "account_page": "https://explorer.bccnodes.com/nois-M/account/${accountAddress}"
     },
     {
       "kind": "explorers.guru",

@@ -34,9 +34,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/envadiv/Passage3D",
-    "recommended_version": "v2.0.1",
+    "recommended_version": "v2.2.0",
     "compatible_versions": [
-      "v2.0.1"
+      "v2.2.0"
     ],
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/envadiv/mainnet/main/passage-2/genesis.json"
@@ -47,6 +47,20 @@
         "recommended_version": "v2.0.1",
         "compatible_versions": [
           "v2.0.1"
+        ],
+        "cosmos_sdk_version": "v0.45.16",
+        "ibc_go_version": "v4.4.2",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.34.27"
+        },
+        "next_version_name": "v2.2.0"
+      },
+      {
+        "name": "v2.2.0",
+        "recommended_version": "v2.2.0",
+        "compatible_versions": [
+          "v2.2.0"
         ],
         "cosmos_sdk_version": "v0.45.16",
         "ibc_go_version": "v4.4.2",
@@ -152,6 +166,10 @@
         "provider": "Notional"
       },
       {
+        "address": "https://rpc-passage.cosmos-spaces.cloud",
+        "provider": "Cosmos Spaces"
+      },
+      {
         "address": "https://rpc.passage.nodestake.top",
         "provider": "NodeStake"
       },
@@ -178,6 +196,10 @@
       {
         "address": "https://passage-rpc.stakerhouse.com",
         "provider": "StakerHouse"
+      },
+      {
+        "address": "https://passage-rpc.publicnode.com:443",
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
       }
     ],
     "rest": [
@@ -196,6 +218,10 @@
       {
         "address": "https://passage-api.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://api-passage.cosmos-spaces.cloud",
+        "provider": "Cosmos Spaces"
       },
       {
         "address": "https://api-passage-ia.cosmosia.notional.ventures/",
@@ -228,6 +254,10 @@
       {
         "address": "https://passage-rest.stakerhouse.com",
         "provider": "StakerHouse"
+      },
+      {
+        "address": "https://passage-rest.publicnode.com",
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
       }
     ],
     "grpc": [
@@ -244,6 +274,10 @@
         "provider": "Polkachu"
       },
       {
+        "address": "grpc-passage.cosmos-spaces.cloud:2320",
+        "provider": "Cosmos Spaces"
+      },
+      {
         "address": "grpc.passage.nodestake.top:443",
         "provider": "NodeStake"
       },
@@ -258,6 +292,10 @@
       {
         "address": "passage-grpc.stakerhouse.com:443",
         "provider": "StakerHouse"
+      },
+      {
+        "address": "passage-grpc.publicnode.com:443",
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
       }
     ]
   },
@@ -289,5 +327,10 @@
   ],
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png"
-  }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png"
+    }
+  ]
 }
