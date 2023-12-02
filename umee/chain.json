@@ -420,6 +420,11 @@
         "provider": "AutoStake 🛡️ Slash Protected"
       },
       {
+        "id": "345970b5bdac916d95d8c64243d901766aff5475",
+        "address": "95.217.204.48:26656",
+        "provider": "[NODERS]TEAM"
+      },
+      {
         "id": "1b728581c6d308078e2b969a0c6243852f77d28d",
         "address": "umee.peers.m.stavr.tech:10456",
         "provider": "🔥STAVR🔥"
@@ -518,7 +523,7 @@
         "provider": "MZONDER"
       },
       {
-        "address": "https://umee-rpc.stake-town.com:443",
+        "address": "https://umee-rpc.stake-town.com",
         "provider": "StakeTown"
       }
     ],
@@ -588,7 +593,7 @@
         "provider": "MZONDER"
       },
       {
-        "address": "https://umee-api.stake-town.com:443",
+        "address": "https://umee-api.stake-town.com",
         "provider": "StakeTown"
       }
     ],

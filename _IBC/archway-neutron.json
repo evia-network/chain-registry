@@ -1,23 +1,23 @@
 {
   "$schema": "../ibc_data.schema.json",
   "chain_1": {
-    "chain_name": "dydxtestnet",
-    "client_id": "07-tendermint-1",
-    "connection_id": "connection-2"
+    "chain_name": "archway",
+    "client_id": "07-tendermint-51",
+    "connection_id": "connection-58"
   },
   "chain_2": {
-    "chain_name": "osmosistestnet",
-    "client_id": "07-tendermint-682",
-    "connection_id": "connection-612"
+    "chain_name": "neutron",
+    "client_id": "07-tendermint-62",
+    "connection_id": "connection-43"
   },
   "channels": [
     {
       "chain_1": {
-        "channel_id": "channel-2",
+        "channel_id": "channel-61",
         "port_id": "transfer"
       },
       "chain_2": {
-        "channel_id": "channel-1261",
+        "channel_id": "channel-41",
         "port_id": "transfer"
       },
       "ordering": "unordered",
@@ -29,3 +29,4 @@
     }
   ]
 }
+
