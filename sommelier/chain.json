@@ -141,6 +141,11 @@
         "provider": "Validatus"
       },
       {
+        "id": "ac65237d8760a58be6818566139d33713983d9ef",
+        "address": "sommelier.seed.stavr.tech:2076",
+        "provider": "🔥STAVR🔥"
+      },
+      {
         "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
         "address": "seed.publicnode.com:26656",
         "provider": "Allnodes ⚡️ Nodes & Staking"
@@ -170,16 +175,16 @@
         "provider": "PUPMØS"
       },
       {
+        "address": "https://somm.rpc.m.stavr.tech",
+        "provider": "🔥STAVR🔥"
+      },
+      {
         "address": "https://sommelier-rpc.lavenderfive.com/",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
         "address": "https://sommelier-mainnet-rpc.autostake.com:443",
         "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "https://rpc-sommelier.cosmos-spaces.cloud",
-        "provider": "Cosmos Spaces"
       },
       {
         "address": "https://somm-rpc.kleomedes.network",
@@ -200,12 +205,12 @@
         "provider": "Polkachu"
       },
       {
-        "address": "https://sommelier-api.lavenderfive.com/",
-        "provider": "Lavender.Five Nodes 🐝"
+        "address": "https://som.api.m.stavr.tech",
+        "provider": "🔥STAVR🔥"
       },
       {
-        "address": "https://api-sommelier.cosmos-spaces.cloud",
-        "provider": "Cosmos Spaces"
+        "address": "https://sommelier-api.lavenderfive.com/",
+        "provider": "Lavender.Five Nodes 🐝"
       },
       {
         "address": "https://sommelier-mainnet-lcd.autostake.com:443",
@@ -222,16 +227,16 @@
         "provider": "Polkachu"
       },
       {
+        "address": "somm.grpc.m.stavr.tech:114",
+        "provider": "🔥STAVR🔥"
+      },
+      {
         "address": "sommelier-grpc.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
         "address": "sommelier-mainnet-grpc.autostake.com:443",
         "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "grpc-sommelier.cosmos-spaces.cloud:2310",
-        "provider": "Cosmos Spaces"
       },
       {
         "address": "https://grpc.sommelier.nodexcapital.com",
@@ -258,6 +263,12 @@
       "url": "https://www.mintscan.io/sommelier",
       "tx_page": "https://www.mintscan.io/sommelier/transactions/${txHash}",
       "account_page": "https://www.mintscan.io/sommelier/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Sommelier-Mainnet",
+      "tx_page": "https://explorer.stavr.tech/Sommelier-Mainnet/tx/${txHash}",
+      "account_page": "https://explorer.stavr.tech/Sommelier-Mainnet/account/${accountAddress}"
     },
     {
       "kind": "NODEXPLORER",

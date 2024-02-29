@@ -99,6 +99,11 @@
         "id": "5e51671241340f1d1e1409a9e0cc4474820bf782",
         "address": "humans-mainnet-peer.itrocket.net:17656",
         "provider": "itrocket"
+      },      
+      {
+        "id": "52ce913cd01c55b9471b0d13338d6db242f7b509",
+        "address": "humans.rpc.nodeshub.online:18456",
+        "provider": "Nodes Hub"
       },
       {
         "id": "fd66247c122117190c9f2e7a09797e4039a05ba2",
@@ -126,6 +131,10 @@
       {
         "address": "https://humans.rpc.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://humans.rpc.nodeshub.online",
+        "provider": "NodesHub"
       },
       {
         "address": "https://humans-mainnet-rpc.itrocket.net",
@@ -158,6 +167,10 @@
       {
         "address": "https://rpc.humans-mainnet.stake-take.com/",
         "provider": "Stake-Take"
+      },
+      {
+        "address": "https://rpc.humans.posthuman.digital",
+        "provider": "posthuman"
       }
     ],
     "rest": [
@@ -168,6 +181,10 @@
       {
         "address": "https://humans.api.kjnodes.com",
         "provider": "kjnodes"
+      },
+      {
+        "address": "https://humans.api.nodeshub.online",
+        "provider": "NodesHub"
       },
       {
         "address": "https://humans-mainnet-api.itrocket.net",
@@ -196,6 +213,10 @@
       {
         "address": "https://api.humans-mainnet.stake-take.com/",
         "provider": "Stake-Take"
+      },
+      {
+        "address": "https://rest.humans.posthuman.digital",
+        "provider": "posthuman"
       }
     ],
     "grpc": [
@@ -252,6 +273,10 @@
       {
         "address": "https://mainnet-humans-evm.konsortech.xyz",
         "provider": "KonsorTech"
+      },
+      {
+        "address": "https://evm.humans.posthuman.digital",
+        "provider": "posthuman"
       }
     ]
   },
@@ -287,6 +312,12 @@
       "url": "https://mainnet.itrocket.net/humans/staking",
       "tx_page": "https://mainnet.itrocket.net/humans/tx/${txHash}",
       "account_page": "https://mainnet.itrocket.net/humans/account/${accountAddress}"
+    },
+    {
+      "kind": "posthuman",
+      "url": "https://explorer.posthuman.digital/humans",
+      "tx_page": "https://explorer.posthuman.digital/humans/tx/${txHash}",
+      "account_page": "https://explorer.posthuman.digital/humans/account/${accountAddress}"
     }
   ],
   "images": [
