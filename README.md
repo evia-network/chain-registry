@@ -310,7 +310,7 @@ An example assetlist json contains the following structure:
         "staking"
       ],
       "socials": {
-        "webiste": "https://osmosis.zone",
+        "website": "https://osmosis.zone",
         "twitter": "https://twitter.com/osmosiszone"
       }
     },
@@ -344,7 +344,7 @@ An example assetlist json contains the following structure:
         "defi"
       ],
       "socials": {
-        "webiste": "https://ion.wtf",
+        "website": "https://ion.wtf",
         "twitter": "https://twitter.com/_IONDAO"
       }
     }
