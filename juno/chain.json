@@ -578,10 +578,6 @@
         "provider": "Decloud Nodes Lab"
       },
       {
-        "address": "http://juno.api.staking-explorer.com",
-        "provider": "Daily DROP"
-      },
-      {
         "address": "https://juno.api.nodeshub.online:443",
         "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
       }
@@ -728,6 +724,12 @@
       "url": "https://explorer.nodeshub.online/juno/",
       "tx_page": "https://explorer.nodeshub.online/juno/tx/${txHash}",
       "account_page": "https://explorer.nodeshub.online/juno/accounts/${accountAddress}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/juno",
+      "tx_page": "https://mainnet.whispernode.com/juno/tx/${txHash}",
+      "account_page": "https://mainnet.whispernode.com/juno/account/${accountAddress}"
     }
   ],
   "images": [

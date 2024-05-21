@@ -220,7 +220,7 @@
         "provider": "NewMetric"
       },
       {
-        "address": "https://rpc-injective.goldenratiostaking.net",
+        "address": "https://rpc.injective.goldenratiostaking.net",
         "provider": "Golden Ratio Staking"
       },
       {
@@ -294,7 +294,7 @@
         "provider": "Stakeflow"
       },
       {
-        "address": "https://rest-injective.goldenratiostaking.net",
+        "address": "https://rest.injective.goldenratiostaking.net",
         "provider": "Golden Ratio Staking"
       },
       {
@@ -414,6 +414,12 @@
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/injective",
       "account_page": "https://stakeflow.io/injective/accounts/${accountAddress}"
+    },
+    {
+      "kind": "WhisperNode 🤐",
+      "url": "https://mainnet.whispernode.com/injective",
+      "tx_page": "https://mainnet.whispernode.com/injective/tx/${txHash}",
+      "account_page": "https://mainnet.whispernode.com/injective/account/${accountAddress}"
     }
   ],
   "images": [
