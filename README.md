@@ -1,4 +1,12 @@
-# Chain Registry
+# Chain Registry - Image Optimised
+
+## This repo is a fork of the original chain registry but with webp images!
+
+To refresh, simply sync fork with upstream and run 
+```shell
+for x in $(find . -iname '*.png');do ./cwebp -lossless -resize 256 0 "${x}" -o "${x%%png}"webp;done
+``` 
+in the root directory to convert all images to webp.
 
 This repo contains a `chain.json`, `assetlist.json`, and `versions.json` for a number of cosmos-sdk based chains (and `assetlist.json` for non-cosmos chains).  A `chain.json` contains data that makes it easy to start running or interacting with a node.
 
