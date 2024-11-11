@@ -41,13 +41,10 @@
     "compatible_versions": [
       "v0.7.3"
     ],
-    "cosmos_sdk_version": "0.47.5",
     "consensus": {
       "type": "cometbft",
       "version": "0.37.2"
     },
-    "cosmwasm_version": "0.42.0",
-    "cosmwasm_enabled": true,
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/aura-nw/mainnet-artifacts/main/xstaxy-1/genesis.json"
     },
@@ -78,13 +75,10 @@
         "compatible_versions": [
           "v0.7.1"
         ],
-        "cosmos_sdk_version": "0.47.4",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.2"
         },
-        "cosmwasm_version": "0.41.0",
-        "cosmwasm_enabled": true,
         "next_version_name": "v0.7.2",
         "sdk": {
           "type": "cosmos",
@@ -103,13 +97,10 @@
         "compatible_versions": [
           "v0.7.2"
         ],
-        "cosmos_sdk_version": "0.47.4",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.2"
         },
-        "cosmwasm_version": "0.41.0",
-        "cosmwasm_enabled": true,
         "next_version_name": "v0.7.3",
         "sdk": {
           "type": "cosmos",
@@ -132,13 +123,10 @@
         "compatible_versions": [
           "v0.7.3"
         ],
-        "cosmos_sdk_version": "0.47.5",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.2"
         },
-        "cosmwasm_version": "0.42.0",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.47.5"

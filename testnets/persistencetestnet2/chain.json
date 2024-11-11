@@ -65,13 +65,10 @@
         "compatible_versions": [
           "v8.0.0"
         ],
-        "cosmos_sdk_version": "0.47",
         "consensus": {
           "type": "tendermint",
           "version": "0.37"
         },
-        "cosmwasm_version": "0.40",
-        "cosmwasm_enabled": true,
         "next_version_name": "v8.1.0",
         "sdk": {
           "type": "cosmos",
@@ -93,13 +90,10 @@
         "compatible_versions": [
           "v8.1.0"
         ],
-        "cosmos_sdk_version": "0.47",
         "consensus": {
           "type": "tendermint",
           "version": "0.37"
         },
-        "cosmwasm_version": "0.40",
-        "cosmwasm_enabled": true,
         "next_version_name": "v9",
         "sdk": {
           "type": "cosmos",
@@ -123,13 +117,10 @@
         "compatible_versions": [
           "v8.0.0"
         ],
-        "cosmos_sdk_version": "0.47",
         "consensus": {
           "type": "tendermint",
           "version": "0.37"
         },
-        "cosmwasm_version": "0.40",
-        "cosmwasm_enabled": true,
         "next_version_name": "v9.1.0",
         "sdk": {
           "type": "cosmos",
@@ -154,14 +145,10 @@
           "v9.1.1",
           "v9.1.0"
         ],
-        "cosmos_sdk_version": "v0.47.0-lsm",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmwasm_version": "v0.40.2",
-        "cosmwasm_enabled": true,
-        "cosmwasm_path": "$HOME/.persistenceCore/wasm",
         "binaries": {
           "linux/amd64": "https://github.com/persistenceOne/persistenceCore/releases/download/v9.1.1/persistenceCore-v9.1.1-linux-amd64.tar.gz"
         },

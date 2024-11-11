@@ -40,13 +40,10 @@
     "compatible_versions": [
       "v0.1.1-patch"
     ],
-    "cosmos_sdk_version": "v0.47.8",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.4"
     },
-    "cosmwasm_version": "v0.41.0",
-    "cosmwasm_enabled": true,
     "genesis": {
       "genesis_url": "https://snapshots.lavenderfive.com/genesis/andromeda/genesis.json"
     },
@@ -59,13 +56,10 @@
         "compatible_versions": [
           "andromeda-1-v0.1.0"
         ],
-        "cosmos_sdk_version": "v0.47.5",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmwasm_version": "v0.41.0",
-        "cosmwasm_enabled": true,
         "next_version_name": "v0.1.1",
         "sdk": {
           "type": "cosmos",
@@ -89,13 +83,10 @@
         "compatible_versions": [
           "v0.1.1-patch"
         ],
-        "cosmos_sdk_version": "v0.47.8",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
         },
-        "cosmwasm_version": "v0.41.0",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "v0.47.8"

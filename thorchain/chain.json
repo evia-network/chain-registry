@@ -17,8 +17,6 @@
     "compatible_versions": [
       "v2.135.0"
     ],
-    "cosmos_sdk_version": "v0.45.16",
-    "cosmwasm_enabled": false,
     "genesis": {
       "genesis_url": "https://storage.googleapis.com/public-snapshots-ninerealms/genesis/17562000.json"
     },
@@ -29,8 +27,6 @@
         "compatible_versions": [
           "v1.132.0"
         ],
-        "cosmos_sdk_version": "v0.45.1",
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45.1"
@@ -46,8 +42,6 @@
         "compatible_versions": [
           "v1.133.0"
         ],
-        "cosmos_sdk_version": "v0.45.1",
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45.1"
@@ -63,8 +57,6 @@
         "compatible_versions": [
           "v1.134.0"
         ],
-        "cosmos_sdk_version": "v0.45.1",
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45.1"
@@ -80,8 +72,6 @@
         "compatible_versions": [
           "v1.134.1"
         ],
-        "cosmos_sdk_version": "v0.45.1",
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45.1"
@@ -97,8 +87,6 @@
         "compatible_versions": [
           "v2.135.0"
         ],
-        "cosmos_sdk_version": "v0.45.16",
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45.16"

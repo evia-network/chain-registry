@@ -128,10 +128,6 @@
         "provider": "AssetMantle"
       },
       {
-        "address": "https://rpc-assetmantle.ecostake.com",
-        "provider": "ecostake"
-      },
-      {
         "address": "https://assetmantle-rpc.polkachu.com",
         "provider": "Polkachu"
       },
@@ -160,10 +156,6 @@
       {
         "address": "https://rest.assetmantle.one",
         "provider": "AssetMantle"
-      },
-      {
-        "address": "https://rest-assetmantle.ecostake.com",
-        "provider": "ecostake"
       },
       {
         "address": "https://api.assetmantle.nodestake.top",
@@ -230,6 +222,12 @@
       "kind": "ping.pub",
       "url": "https://explorer.postcapitalist.io/AssetMantle",
       "tx_page": "https://explorer.postcapitalist.io/AssetMantle/tx/${txHash}"
+    },
+    {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/assetmantle",
+      "tx_page": "https://staking-explorer.com/transaction.php?chain=assetmantle&tx=${txHash}",
+      "account_page": "https://staking-explorer.com/account.php?chain=assetmantle&addr=${accountAddress}"
     },
     {
       "kind": "other",

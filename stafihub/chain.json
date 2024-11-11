@@ -41,7 +41,6 @@
     "compatible_versions": [
       "v0.5.0"
     ],
-    "cosmos_sdk_version": "0.46",
     "consensus": {
       "type": "tendermint",
       "version": "0.34"
@@ -79,7 +78,6 @@
         "compatible_versions": [
           "v0.5.0"
         ],
-        "cosmos_sdk_version": "0.46",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
@@ -206,6 +204,12 @@
       "kind": "ping-pub",
       "url": "https://ping.pub/stafihub",
       "tx_page": "https://ping.pub/stafihub/tx/${txHash}"
+    },
+    {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/stafihub",
+      "tx_page": "https://staking-explorer.com/transaction.php?chain=stafihub&tx=${txHash}",
+      "account_page": "https://staking-explorer.com/account.php?chain=stafihub&addr=${accountAddress}"
     },
     {
       "kind": "atomscan",

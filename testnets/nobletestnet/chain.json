@@ -47,12 +47,10 @@
       "v4.0.0-alpha3",
       "v4.0.0-beta1"
     ],
-    "cosmos_sdk_version": "v0.45",
     "consensus": {
       "type": "tendermint",
       "version": "0.34"
     },
-    "cosmwasm_enabled": false,
     "genesis": {
       "name": "v0.3.0",
       "genesis_url": "https://raw.githubusercontent.com/strangelove-ventures/noble-networks/main/testnet/grand-1/genesis.json"
@@ -72,12 +70,10 @@
         "compatible_versions": [
           "v0.4.1"
         ],
-        "cosmos_sdk_version": "v0.45",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
         },
-        "cosmwasm_enabled": false,
         "next_version_name": "radon",
         "sdk": {
           "type": "cosmos",
@@ -103,12 +99,10 @@
           "v0.5.0",
           "v0.5.1"
         ],
-        "cosmos_sdk_version": "v0.45",
         "consensus": {
           "type": "cometbft",
           "version": "0.34"
         },
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45"
@@ -129,12 +123,10 @@
         "tag": "v3.0.0",
         "height": 1397000,
         "recommended_version": "v3.0.0",
-        "cosmos_sdk_version": "v0.45",
         "consensus": {
           "type": "cometbft",
           "version": "0.34"
         },
-        "cosmwasm_enabled": false,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45"

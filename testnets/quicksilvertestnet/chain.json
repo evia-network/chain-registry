@@ -36,13 +36,10 @@
     "compatible_versions": [
       "v1.4.5-rc2"
     ],
-    "cosmos_sdk_version": "0.46",
     "consensus": {
       "type": "tendermint",
       "version": "0.34"
     },
-    "cosmwasm_version": "0.29",
-    "cosmwasm_enabled": true,
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/ingenuity-build/testnets/main/rhye-2/genesis.json"
     },
@@ -53,13 +50,10 @@
         "compatible_versions": [
           "v1.4.5-rc2"
         ],
-        "cosmos_sdk_version": "0.46",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
         },
-        "cosmwasm_version": "0.29",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.46"

@@ -48,7 +48,6 @@
       "darwin/arm64": "https://github.com/tenet-org/tenet-mainnet/releases/download/v11.2.1/tenet-mainnet_11.2.1_Darwin_arm64.tar.gz",
       "windows/amd64": "https://github.com/tenet-org/tenet-mainnet/releases/download/v11.2.1/tenet-mainnet_11.2.1_Windows_amd64.zip"
     },
-    "cosmos_sdk_version": "0.46",
     "consensus": {
       "type": "tendermint",
       "version": "0.34"
@@ -63,7 +62,6 @@
         "compatible_versions": [
           "v11.0.6"
         ],
-        "cosmos_sdk_version": "0.46",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
@@ -94,7 +92,6 @@
           "v11.2.0",
           "v11.2.1"
         ],
-        "cosmos_sdk_version": "0.46",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
@@ -227,6 +224,12 @@
       "url": "https://explorer.tcnetwork.io/tenet",
       "tx_page": "https://explorer.tcnetwork.io/tenet/transaction/${txHash}",
       "account_page": "https://explorer.tcnetwork.io/tenet/account/${accountAddress}"
+    },
+    {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/tenet",
+      "tx_page": "https://staking-explorer.com/transaction.php?chain=tenet&tx=${txHash}",
+      "account_page": "https://staking-explorer.com/account.php?chain=tenet&addr=${accountAddress}"
     },
     {
       "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",

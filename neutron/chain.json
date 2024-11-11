@@ -70,13 +70,10 @@
     "binaries": {
       "linux/amd64": "https://github.com/neutron-org/neutron/releases/download/v4.2.0/neutrond-linux-amd64"
     },
-    "cosmos_sdk_version": "neutron-org/cosmos-sdk v0.50.7-neutron",
     "consensus": {
       "type": "cometbft",
       "version": "v0.38.7"
     },
-    "cosmwasm_version": "neutron-org/wasmd v0.51.0",
-    "cosmwasm_enabled": true,
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/neutron-org/mainnet-assets/main/neutron-1-genesis.json"
     },
@@ -88,13 +85,10 @@
           "v1.0.3",
           "v1.0.4"
         ],
-        "cosmos_sdk_version": "0.45",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
         },
-        "cosmwasm_version": "0.31",
-        "cosmwasm_enabled": true,
         "next_version_name": "v2.0.0",
         "sdk": {
           "type": "cosmos",
@@ -120,13 +114,10 @@
         "binaries": {
           "linux/amd64": "https://github.com/neutron-org/neutron/releases/download/v2.0.4/neutrond-linux-amd64"
         },
-        "cosmos_sdk_version": "v0.47.6",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmwasm_version": "v0.45.0",
-        "cosmwasm_enabled": true,
         "next_version_name": "v3.0.1",
         "sdk": {
           "type": "cosmos",
@@ -152,13 +143,10 @@
         "binaries": {
           "linux/amd64": "https://github.com/neutron-org/neutron/releases/download/v3.0.2/neutrond-linux-amd64"
         },
-        "cosmos_sdk_version": "neutron-org/cosmos-sdk v0.47.10-neutron",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
         },
-        "cosmwasm_version": "neutron-org/wasmd v0.45.0",
-        "cosmwasm_enabled": true,
         "next_version_name": "v3.0.5",
         "sdk": {
           "type": "cosmos",
@@ -187,13 +175,10 @@
         "binaries": {
           "linux/amd64": "https://github.com/neutron-org/neutron/releases/download/v3.0.6/neutrond-linux-amd64"
         },
-        "cosmos_sdk_version": "neutron-org/cosmos-sdk v0.47.10-neutron",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
         },
-        "cosmwasm_version": "neutron-org/wasmd v0.45.0",
-        "cosmwasm_enabled": true,
         "next_version_name": "v4.0.1",
         "sdk": {
           "type": "cosmos",
@@ -222,13 +207,10 @@
         "binaries": {
           "linux/amd64": "https://github.com/neutron-org/neutron/releases/download/v4.2.0/neutrond-linux-amd64"
         },
-        "cosmos_sdk_version": "neutron-org/cosmos-sdk v0.50.7-neutron",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.7"
         },
-        "cosmwasm_version": "neutron-org/wasmd v0.51.0",
-        "cosmwasm_enabled": true,
         "next_version_name": "",
         "sdk": {
           "type": "cosmos",
@@ -306,6 +288,14 @@
   },
   "apis": {
     "rpc": [
+      {
+        "address": "https://rpc-voidara.neutron-1.neutron.org",
+        "provider": "Neutron"
+      },
+      {
+        "address": "https://rpc-pulsarix.neutron-1.neutron.org",
+        "provider": "Neutron"
+      },
       {
         "address": "https://rpc.novel.remedy.tm.p2p.org",
         "provider": "P2P"

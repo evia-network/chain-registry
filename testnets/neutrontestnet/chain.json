@@ -29,13 +29,10 @@
     "compatible_versions": [
       "v4.2.2-testnet"
     ],
-    "cosmos_sdk_version": "0.50",
     "consensus": {
       "type": "cometbft",
       "version": "0.38.11"
     },
-    "cosmwasm_version": "0.51",
-    "cosmwasm_enabled": true,
     "genesis": {
       "genesis_url": "https://github.com/cosmos/testnets/raw/master/replicated-security/pion-1/pion-1-genesis.json"
     },
@@ -47,13 +44,10 @@
         "compatible_versions": [
           "v0.4.3"
         ],
-        "cosmos_sdk_version": "0.45",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
         },
-        "cosmwasm_version": "0.31",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.45"
@@ -74,13 +68,10 @@
         "compatible_versions": [
           "v1.0.4"
         ],
-        "cosmos_sdk_version": "0.45",
         "consensus": {
           "type": "cometbft",
           "version": "0.34.27"
         },
-        "cosmwasm_version": "0.31",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.45"
@@ -101,13 +92,10 @@
         "compatible_versions": [
           "v2.0.0"
         ],
-        "cosmos_sdk_version": "0.47",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.2"
         },
-        "cosmwasm_version": "0.45",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.47"
@@ -128,13 +116,10 @@
         "compatible_versions": [
           "v3.0.0"
         ],
-        "cosmos_sdk_version": "0.47",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.4"
         },
-        "cosmwasm_version": "0.45",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.47"
@@ -155,13 +140,10 @@
         "compatible_versions": [
           "v4.0.0-rc3"
         ],
-        "cosmos_sdk_version": "0.50",
         "consensus": {
           "type": "cometbft",
           "version": "0.38.7"
         },
-        "cosmwasm_version": "0.51",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.50"
@@ -182,13 +164,10 @@
         "compatible_versions": [
           "v4.2.1-testnet"
         ],
-        "cosmos_sdk_version": "0.50",
         "consensus": {
           "type": "cometbft",
           "version": "0.38.11"
         },
-        "cosmwasm_version": "0.51",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.50"
@@ -209,13 +188,10 @@
         "compatible_versions": [
           "v4.2.2-testnet"
         ],
-        "cosmos_sdk_version": "0.50",
         "consensus": {
           "type": "cometbft",
           "version": "0.38.11"
         },
-        "cosmwasm_version": "0.51",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.50"

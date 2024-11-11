@@ -42,13 +42,10 @@
       "v1.0.0",
       "v1.0.2"
     ],
-    "cosmos_sdk_version": "0.46.7",
     "consensus": {
       "type": "tendermint",
       "version": "0.34.24"
     },
-    "cosmwasm_version": "0.30.0",
-    "cosmwasm_enabled": true,
     "genesis": {
       "genesis_url": "https://github.com/mars-protocol/networks/raw/main/mars-1/genesis.json"
     },
@@ -62,13 +59,10 @@
           "v1.0.0",
           "v1.0.2"
         ],
-        "cosmos_sdk_version": "0.46.7",
         "consensus": {
           "type": "tendermint",
           "version": "0.34.24"
         },
-        "cosmwasm_version": "0.30.0",
-        "cosmwasm_enabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.46.7"
